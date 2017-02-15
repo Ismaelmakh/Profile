@@ -1,111 +1,73 @@
-<!doctype html>
-<html lang="en" class="no-js">
+<!DOCTYPE html>
+<html >
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Material Design: Profile Card</title>
+  
+  
+  <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
 
-	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="css/style.css">
 
-	<link rel="stylesheet" href="https://googledrive.com/host/0B9JC7X6rb_TiTkpuQUQyNnE3Rms"> <!-- CSS reset -->
-	<link rel="stylesheet" href="https://googledrive.com/host/0B91DmmGOhSkfRktGLWZzTHJiYWM"> <!-- Resource style -->
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-  	
-	<title>Product Quick View | CodyHouse</title>
+  
 </head>
+
 <body>
-	<header>
-		<h1>Product Quick View</h1>
-	</header>
-	
-	<ul class="cd-items cd-container">
-		<li class="cd-item">
-			<img src="img/item-1.jpg" alt="Item Preview">
-			<a href="#0" class="cd-trigger">Quick View</a>
-		</li> <!-- cd-item -->
+  <aside class="profile-card">
+  <header>
+    <!-- here’s the avatar -->
+    <a target="_blank" href="#">
+      <img src="http://lorempixel.com/150/150/people/" class="hoverZoomLink">
+    </a>
 
-		<li class="cd-item">
-			<img src="img/item-1.jpg" alt="Item Preview">
-			<a href="#0" class="cd-trigger">Quick View</a>
-		</li> <!-- cd-item -->
+    <!-- the username -->
+    <h1>
+            John Doe
+          </h1>
 
-		<li class="cd-item">
-			<img src="img/item-1.jpg" alt="Item Preview">
-			<a href="#0" class="cd-trigger">Quick View</a>
-		</li> <!-- cd-item -->
+    <!-- and role or location -->
+    <h2>
+            Better Visuals
+          </h2>
 
-		<li class="cd-item">
-			<img src="img/item-1.jpg" alt="Item Preview">
-			<a href="#0" class="cd-trigger">Quick View</a>
-		</li> <!-- cd-item -->
+  </header>
 
-		<li class="cd-item">
-			<img src="img/item-1.jpg" alt="Item Preview">
-			<a href="#0" class="cd-trigger">Quick View</a>
-		</li> <!-- cd-item -->
+  <!-- bit of a bio; who are you? -->
+  <div class="profile-bio">
 
-		<li class="cd-item">
-			<img src="img/item-1.jpg" alt="Item Preview">
-			<a href="#0" class="cd-trigger">Quick View</a>
-		</li> <!-- cd-item -->
+    <p>
+      It takes monumental improvement for us to change how we live our lives. Design is the way we access that improvement.
+    </p>
 
-		<li class="cd-item">
-			<img src="img/item-1.jpg" alt="Item Preview">
-			<a href="#0" class="cd-trigger">Quick View</a>
-		</li> <!-- cd-item -->
+  </div>
 
-		<li class="cd-item">
-			<img src="img/item-1.jpg" alt="Item Preview">
-			<a href="#0" class="cd-trigger">Quick View</a>
-		</li> <!-- cd-item -->
-
-		<li class="cd-item">
-			<img src="img/item-1.jpg" alt="Item Preview">
-			<a href="#0" class="cd-trigger">Quick View</a>
-		</li> <!-- cd-item -->
-
-		<li class="cd-item">
-			<img src="img/item-1.jpg" alt="Item Preview">
-			<a href="#0" class="cd-trigger">Quick View</a>
-		</li> <!-- cd-item -->
-
-		<li class="cd-item">
-			<img src="img/item-1.jpg" alt="Item Preview">
-			<a href="#0" class="cd-trigger">Quick View</a>
-		</li> <!-- cd-item -->
-
-		<li class="cd-item">
-			<img src="img/item-1.jpg" alt="Item Preview">
-			<a href="#0" class="cd-trigger">Quick View</a>
-		</li> <!-- cd-item -->
-	</ul> <!-- cd-items -->
-
-	<div class="cd-quick-view">
-		<div class="cd-slider-wrapper">
-			<ul class="cd-slider">
-				<li class="selected"><img src="img/item-1.jpg" alt="Product 1"></li>
-				<li><img src="img/item-2.jpg" alt="Product 2"></li>
-				<li><img src="img/item-3.jpg" alt="Product 3"></li>
-			</ul> <!-- cd-slider -->
-
-			<ul class="cd-slider-navigation">
-				<li><a class="cd-next" href="#0">Prev</a></li>
-				<li><a class="cd-prev" href="#0">Next</a></li>
-			</ul> <!-- cd-slider-navigation -->
-		</div> <!-- cd-slider-wrapper -->
-
-		<div class="cd-item-info">
-			<h2>Produt Title</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, omnis illo iste ratione. Numquam eveniet quo, ullam itaque expedita impedit. Eveniet, asperiores amet iste repellendus similique reiciendis, maxime laborum praesentium.</p>
-
-			<ul class="cd-item-action">
-				<li><button class="add-to-cart">Add to cart</button></li>					
-				<li><a href="#0">Learn more</a></li>	
-			</ul> <!-- cd-item-action -->
-		</div> <!-- cd-item-info -->
-		<a href="#0" class="cd-close">Close</a>
-	</div> <!-- cd-quick-view -->
-<script src="js/jquery-2.1.1.js"></script>
-<script src="js/velocity.min.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+  <!-- some social links to show off -->
+  <ul class="profile-social-links">
+    <li>
+      <a target="_blank" href="https://www.facebook.com/creativedonut">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a target="_blank" href="https://twitter.com/dropyourbass">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a target="_blank" href="https://github.com/vipulsaxena">
+        <i class="fa fa-github"></i>
+      </a>
+    </li>
+    <li>
+      <a target="_blank" href="https://www.behance.net/vipulsaxena">
+       
+        <i class="fa fa-behance"></i>
+      </a>
+    </li>
+  </ul>
+</aside>
+  
+  
 </body>
 </html>
